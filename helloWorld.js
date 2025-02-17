@@ -3,6 +3,7 @@ console.log(text);
 
 function add(a, b) {
     let result = a + b; // Noncompliant: Useless assignment to local variable 'result'
+    let result2 = a + b;
     return a + b;
 }
 
